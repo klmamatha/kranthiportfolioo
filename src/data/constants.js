@@ -1,19 +1,18 @@
 export const Bio = {
   name: "Kranthi kumar kadinti",
   roles: [
-    "Frontend React Developer",
+    "Fontend React Developer",
     "UI/UX Designer",
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a web designer with extensive experience for over  3 years.Expertise in creating websites and frontend interfaces.",
   github: "https://github.com/klmamatha",
   resume:
     "https://drive.google.com/file/d/1GSgKfPtQ1hUgWsTl3hn2f4B81DcbTvKS/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/kranthi-kadinti-b7939624b/",
 
 };
-
 export const skills = [
   {
     title: "Frontend",
@@ -166,9 +165,9 @@ export const projects = [
     member: [
       {
         name: "Kranthi kumar",
-        img: "/public/HeroImage.jpg",
-        linkedin: "https://www.linkedin.com/in/kranthi-kadinti-b7939624b/",
-        github: "https://github.com/klmamatha",
+        img: "public/HeroImage.jpg",
+        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+        github: "https://github.com/rishavchanda/",
       },
     ],
   },
