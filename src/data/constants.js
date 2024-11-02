@@ -1,7 +1,7 @@
 export const Bio = {
   name: "Kranthi kumar kadinti",
   roles: [
-    "Fontend React Developer",
+    "Frontend React Developer",
     "UI/UX Designer",
     "Programmer",
   ],
@@ -114,7 +114,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "",
+    img: "../public/jntua.png",
     school: "Jawaharlal Nehru Technological University ,Anantapur",
     date: "Oct 2020 - Feb 2023",
     grade: "8.45 CGPA",
@@ -123,7 +123,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "",
+    img: "../public/audisankara.png",
     school: "Audisankara College of Engineering & Technology",
     date: "August 2016 - Apr 2019",
     grade: "79.64%",
@@ -166,7 +166,7 @@ export const projects = [
     member: [
       {
         name: "Kranthi kumar",
-        img: "",
+        img: "/public/HeroImage.jpg",
         linkedin: "https://www.linkedin.com/in/kranthi-kadinti-b7939624b/",
         github: "https://github.com/klmamatha",
       },
