@@ -1,4 +1,3 @@
-// src/components/ConnectButton.jsx
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
@@ -36,6 +35,7 @@ const PopupOverlay = styled.div`
   background-color: rgba(0, 0, 0, 0.5);
   justify-content: center;
   align-items: center;
+  z-index: 1000; // Ensure the overlay is above other elements
 `;
 
 const PopupContent = styled.div`
@@ -43,6 +43,7 @@ const PopupContent = styled.div`
   padding: 20px;
   border-radius: 8px;
   position: relative;
+  z-index: 1001; // Ensure the content is above the overlay
 `;
 
 const CloseButton = styled.button`
@@ -53,6 +54,7 @@ const CloseButton = styled.button`
   background: none;
   font-size: 18px;
   cursor: pointer;
+  z-index: 1002; // Ensure the button is above the content
 `;
 
 const ConnectButton = () => {
@@ -77,7 +79,7 @@ const ConnectButton = () => {
             title="Topmate Profile"
             className="popup-iframe"
             frameBorder="0"
-            style={{ width: '400px', height: '400px' }} // Adjust size as needed
+            style={{ width: '800px', height: "500px" }} // Adjust size as needed
           ></iframe>
         </PopupContent>
       </PopupOverlay>
