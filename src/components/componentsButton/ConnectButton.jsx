@@ -35,7 +35,7 @@ const PopupOverlay = styled.div`
   background-color: rgba(0, 0, 0, 0.5);
   justify-content: center;
   align-items: center;
-  z-index: 1000; // Ensure the overlay is above other elements
+  z-index: 1000;
 `;
 
 const PopupContent = styled.div`
@@ -43,7 +43,22 @@ const PopupContent = styled.div`
   padding: 20px;
   border-radius: 8px;
   position: relative;
-  z-index: 1001; // Ensure the content is above the overlay
+  z-index: 1001;
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    height: 80%;
+    width: 90%;
+  }
+
+  @media (max-width: 480px) {
+    height: 80%;
+    width: 95%;
+  }
 `;
 
 const CloseButton = styled.button`
@@ -54,7 +69,7 @@ const CloseButton = styled.button`
   background: none;
   font-size: 18px;
   cursor: pointer;
-  z-index: 1002; // Ensure the button is above the content
+  z-index: 1002;
 `;
 
 const ConnectButton = () => {
@@ -79,7 +94,7 @@ const ConnectButton = () => {
             title="Topmate Profile"
             className="popup-iframe"
             frameBorder="0"
-            style={{ width: '800px', height: "500px" }} // Adjust size as needed
+            style={{ width: '100%', height: '100%' }}
           ></iframe>
         </PopupContent>
       </PopupOverlay>
