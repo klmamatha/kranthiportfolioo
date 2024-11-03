@@ -9,6 +9,7 @@ export const Container = styled.div`
     position: relative;
     z-index: none;
     align-items: center;
+    margin-top: 80px;
     clip-path: polygon(0 0, 100% 0, 100% 100%,100% 98%, 0 100%);
 `;
 
@@ -22,6 +23,7 @@ export const Wrapper = styled.div`
     max-width: 1350px;
     padding: 10px 0px 100px 0;
     gap: 12px;
+    margin-top: 80px;
     @media (max-width: 960px) {
         flex-direction: column;
     }
