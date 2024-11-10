@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 import { useState } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js';
@@ -41,6 +42,11 @@ const GlobalStyle = createGlobalStyle`
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
+
+  // Scroll to top on page load
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page on initial load
+  }, []);
 
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
