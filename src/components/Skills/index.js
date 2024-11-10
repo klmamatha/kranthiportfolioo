@@ -9,7 +9,7 @@ justify-content: center;
 position: relative;
 z-index: 1;
 align-items: center;
-margin-top: 80px;
+margin-top: 100px;
 `
 
 const Wrapper = styled.div`
@@ -21,7 +21,7 @@ flex-direction: column;
 width: 100%;
 max-width: 1100px;
 gap: 12px;
-margin-top: 80px;
+margin-top: 100px;
 @media (max-width: 960px) {
     flex-direction: column;
 }

@@ -3,12 +3,12 @@ import { useState } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js';
 import Navbar from "./components/Navbar";
 import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HeroSection from "./components/HeroSection";
-import About from "./components/About";
+import About from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
@@ -48,20 +48,25 @@ function App() {
       <Router>
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
         <Body>
-          <HeroSection />
-          <Wrapper>
-            <Skills />
-            <Experience />
-          </Wrapper>
-          <Projects openModal={openModal} setOpenModal={setOpenModal} />
-          <Wrapper>
-            <Education />
-            <Contact />
-          </Wrapper>
+          <Routes>
+            <Route path="/" element={
+              <>
+                <HeroSection />
+                <Wrapper>
+                  <About />
+                  <Skills />
+                  <Experience />
+                </Wrapper>
+                <Projects openModal={openModal} setOpenModal={setOpenModal} />
+                <Wrapper>
+                  <Education />
+                  <Contact />
+                </Wrapper>
+              </>
+            } />
+          </Routes>
           <Footer />
-          {openModal.state &&
-            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
-          }
+          {openModal.state && <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />}
           <ConnectButton />
         </Body>
       </Router>
