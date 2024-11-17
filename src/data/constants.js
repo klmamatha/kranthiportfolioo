@@ -1,9 +1,11 @@
 export const Bio = {
   name: "Kranthi kumar kadinti",
   roles: [
-    "FrontEnd React Developer",
+    "Front-End Web Developer",
     "UI/UX Designer",
-    "Web designing ",
+    "Web Interface Developer ",
+    "React.Js Developer",
+    "React.Js Front-End Developer",
   ],
   description:
     "Experienced web designer with 3+ years, specializing in creating seamless user experiences and transforming designs into interactive web solutions.",
