@@ -5,7 +5,6 @@ export const Bio = {
     "UI/UX Designer",
     "Web Interface Developer ",
     "React.Js Developer",
-    "React.Js Front-End Developer",
   ],
   description:
     "Experienced web designer with 3+ years, specializing in creating seamless user experiences and transforming designs into interactive web solutions.",
