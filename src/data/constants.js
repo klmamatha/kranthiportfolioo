@@ -1,10 +1,14 @@
+import Audisankara from "../images/Audisankara.jpeg"
+import jntualogo from "../images/jntualogo.png"
+import polytchnic from "../images/polytchnic.jpeg"
+import padhamavanihightschool from "../images/padhamavanihightschool.jpeg"
+
 export const Bio = {
   name: "Kranthi kumar kadinti",
   roles: [
-    "Front-End Web Developer",
+    "FrontEnd React Developer",
     "UI/UX Designer",
-    "Web Interface Developer ",
-    "React.Js Developer",
+    "Web designing ",
   ],
   description:
     "Experienced web designer with 3+ years, specializing in creating seamless user experiences and transforming designs into interactive web solutions.",
@@ -109,7 +113,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "../public/jntua.png",
+    img: jntualogo,
     school: "Jawaharlal Nehru Technological University ,Anantapur",
     date: "Oct 2020 - Feb 2023",
     grade: "8.45 CGPA",
@@ -118,7 +122,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "../public/audisankara.png",
+    img: Audisankara,
     school: "Audisankara College of Engineering & Technology",
     date: "August 2016 - Apr 2019",
     grade: "79.64%",
@@ -127,7 +131,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "",
+    img: polytchnic,
     school: "Govt.Polytechnic Anantapur",
     date: "Aug 2013 - Apr 2016",
     grade: "87.46%",
@@ -136,12 +140,12 @@ export const education = [
   },
   {
     id: 3,
-    img: "",
+    img: padhamavanihightschool,
     school: "Padmavani Hight School",
     date: "Aug 2012 - Apr 2013",
     grade: "92%",
     desc: "I completed my class 10 education at Padmavani Hight School,Tadipatri, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
+    degree: "SSC(X), Science with Maths",
   },
 ];
 
