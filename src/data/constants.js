@@ -6,9 +6,10 @@ import padhamavanihightschool from "../images/padhamavanihightschool.jpeg"
 export const Bio = {
   name: "Kranthi kumar kadinti",
   roles: [
-    "FrontEnd React Developer",
+    "Front-end developer",
+    "React developer",
     "UI/UX Designer",
-    "Web designing ",
+    "Web designer",
   ],
   description:
     "Experienced web designer with 3+ years, specializing in creating seamless user experiences and transforming designs into interactive web solutions.",
