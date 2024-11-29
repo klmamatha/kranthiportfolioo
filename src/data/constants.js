@@ -1,6 +1,8 @@
 import Audisankara from "../images/Audisankara.jpeg"
 import jntualogo from "../images/jntualogo.png"
 import polytchnic from "../images/polytchnic.jpeg"
+import tcs from "../images/tcs.png"
+import Todo from "../images/Todolest.JPG"
 import padhamavanihightschool from "../images/padhamavanihightschool.jpeg"
 
 export const Bio = {
@@ -94,18 +96,18 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Developer",
+    img: tcs,
+    role: "Front-end developer",
     company: "Tata Consultancy Services",
     date: "Feb 2022 - Present",
     desc: "Working on the frontend of the web application using ReactJS, Redux.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
       "HTML",
       "CSS",
       "JavaScript",
+      "ReactJS",
+      "Redux",
+      "NodeJs",
     ],
     doc: "",
   },
@@ -153,16 +155,15 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
+    title: "ToDo-List",
+    date: "Apr 2023",
     description:
       "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+    image: Todo,
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
-    github: "https://github.com/klmamatha",
-    webapp: "https://podstream.netlify.app/",
+    github: "https://github.com/klmamatha/ToDO-List",
+    webapp: "https://to-do-list-back-rouge.vercel.app/",
     member: [
       {
         name: "Kranthi kumar",
