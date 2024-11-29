@@ -2,7 +2,7 @@ import Audisankara from "../images/Audisankara.jpeg"
 import jntualogo from "../images/jntualogo.png"
 import polytchnic from "../images/polytchnic.jpeg"
 import tcs from "../images/tcs.png"
-import Todo from "../images/Todolest.JPG"
+import Todo from "../images/Todolest.jpg"
 import padhamavanihightschool from "../images/padhamavanihightschool.jpeg"
 
 export const Bio = {
