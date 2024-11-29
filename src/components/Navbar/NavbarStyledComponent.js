@@ -17,14 +17,13 @@ export const Nav = styled.div`
     }
 `;
 export const NavbarContainer = styled.div`
+  background-color:lightblue;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 60px;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
-  max-width: 1200px;
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -131,9 +130,9 @@ export const MobileMenu = styled.div`
     position: absolute;
     top: 80px;
     right: 0;
-    width: 100%;
+    width: 30%;
     padding: 12px 40px 24px 40px;
-    background: ${({ theme }) => theme.card_light+99};
+    background: lightblue;
     transition: all 0.6s ease-in-out;
     transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
     border-radius: 0 0 20px 20px;
