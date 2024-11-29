@@ -3,6 +3,7 @@ import jntualogo from "../images/jntualogo.png"
 import polytchnic from "../images/polytchnic.jpeg"
 import tcs from "../images/tcs.png"
 import Todo from "../images/Todolest.jpg"
+import Hero from "../images/HeroImage.jpg"
 import padhamavanihightschool from "../images/padhamavanihightschool.jpeg"
 
 export const Bio = {
@@ -167,7 +168,7 @@ export const projects = [
     member: [
       {
         name: "Kranthi kumar",
-        img: "public/HeroImage.jpg",
+        img: Hero,
         linkedin: "",
         github: "https://github.com/klmamatha",
       },
