@@ -132,7 +132,6 @@ export const MobileMenu = styled.div`
     right: 0;
     width: 30%;
     padding: 12px 40px 24px 40px;
-    background: lightblue;
     transition: all 0.6s ease-in-out;
     transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
     border-radius: 0 0 20px 20px;
