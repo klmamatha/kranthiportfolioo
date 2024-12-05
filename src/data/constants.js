@@ -18,7 +18,7 @@ export const Bio = {
     "Experienced web designer with 3+ years, specializing in creating seamless user experiences and transforming designs into interactive web solutions.",
   github: "https://github.com/klmamatha",
   resume:
-    "https://drive.google.com/file/d/1hgbZqx0G6dNY2P1jOHg_pG9KX_Koaaq8/view?usp=drive_link",
+    "https://drive.google.com/file/d/1qYJSmpa24owhYMTfbf-9kNi-q37QpYvI/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/kranthi-kadinti-b7939624b/",
 
 };
