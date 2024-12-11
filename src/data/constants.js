@@ -16,9 +16,9 @@ export const Bio = {
   ],
   description:
     "Experienced web designer with 3+ years, specializing in creating seamless user experiences and transforming designs into interactive web solutions.",
-  github: "https://github.com/klmamatha",
+  github: "https://github.com/kranthim214",
   resume:
-    "https://drive.google.com/file/d/1qYJSmpa24owhYMTfbf-9kNi-q37QpYvI/view?usp=drive_link",
+    "https://drive.google.com/file/d/1EAA-AR9beVyFHq8z_trMr5w2o7bM5ir0/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/kranthi-kadinti-b7939624b/",
 
 };
@@ -169,8 +169,8 @@ export const projects = [
       {
         name: "Kranthi kumar",
         img: Hero,
-        linkedin: "",
-        github: "https://github.com/klmamatha",
+        linkedin: "https://www.linkedin.com/in/kranthi-kadinti-b7939624b/",
+        github: "https://github.com/kranthim214",
       },
     ],
   },
