@@ -205,9 +205,9 @@ export const projects = [
     image: Netflix,
     tags: ["React Js", "Redux"],
     category: "web app",
-    github: "https://github.com/klmamatha/ToDO-List",
-    webapp: "https://github.com/klmamatha/netflix-main-bulild",
-    member: [
+    github: "https://github.com/klmamatha/netflix-main-bulild",
+    webapp: "https://netflix-main-bulild.vercel.app/",
+    member: [ 
       {
         name: "Kranthi kumar",
         img: Hero,
