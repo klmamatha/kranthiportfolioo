@@ -171,7 +171,7 @@ export const projects = [
       {
         name: "Kranthi kumar",
         img: Hero,
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/kranthi-kadinti-b7939624b",
         github: "https://github.com/klmamatha",
       },
     ],
