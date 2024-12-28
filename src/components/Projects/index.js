@@ -27,17 +27,6 @@ const Projects = ({ openModal, setOpenModal }) => {
             <ToggleButton value="web app" onClick={() => setToggle('web app')}>HTML5 & CSS3</ToggleButton>
           }
           <Divider />
-          {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>With JS</ToggleButton>
-            :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>With JS</ToggleButton>
-          }
-          <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>React And Redux</ToggleButton>
-            :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>React And Redux</ToggleButton>
-          }
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects

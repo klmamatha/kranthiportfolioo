@@ -5,7 +5,6 @@ import tcs from "../images/tcs.png"
 import Todo from "../images/Todolest.jpg"
 import Hero from "../images/HeroImage.jpg"
 import padhamavanihightschool from "../images/padhamavanihightschool.jpeg"
-import emart from "../images/emart.png"
 
 export const Bio = {
   name: "Kranthi kumar kadinti",
@@ -17,9 +16,9 @@ export const Bio = {
   ],
   description:
     "Experienced web designer with 3+ years, specializing in creating seamless user experiences and transforming designs into interactive web solutions.",
-  github: "https://github.com/kranthim214",
+  github: "https://github.com/klmamatha",
   resume:
-    "https://drive.google.com/file/d/1EAA-AR9beVyFHq8z_trMr5w2o7bM5ir0/view?usp=drive_link",
+    "https://drive.google.com/file/d/1GSgKfPtQ1hUgWsTl3hn2f4B81DcbTvKS/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/kranthi-kadinti-b7939624b/",
 
 };
@@ -160,9 +159,9 @@ export const projects = [
     title: "ToDo-List",
     date: "Apr 2023",
     description:
-      "Developed a front-end web application for managing tasks using React, enabling users to add, delete, edit tasks, manage task statuses (pending, in-progress, completed), and add comments for each task. Designed a responsive user interface with React JS for seamless functionality across devices. Followed best coding practices to ensure maintainability and scalability of the application.",
+      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
     image: Todo,
-    tags: ["React Js", "Redux"],
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
     github: "https://github.com/klmamatha/ToDO-List",
     webapp: "https://to-do-list-back-rouge.vercel.app/",
@@ -170,8 +169,8 @@ export const projects = [
       {
         name: "Kranthi kumar",
         img: Hero,
-        linkedin: "https://www.linkedin.com/in/kranthi-kadinti-b7939624b/",
-        github: "https://github.com/kranthim214",
+        linkedin: "",
+        github: "https://github.com/klmamatha",
       },
     ],
   },
@@ -181,11 +180,31 @@ export const projects = [
     date: "Mach 2023",
     description:
       "Developed a front-end e-commerce website using React.js that allows users to browse, search for, and purchase products. Designed a responsive user interface ensuring a seamless experience across all devices. Implemented features such as dynamic product filtering, user authentication, and a shopping cart system. Followed agile methodologies to enhance project collaboration and delivery efficiency.",
-    image: emart,
+    image: Todo,
     tags: ["React Js", "Redux"],
     category: "web app",
     github: "https://github.com/klmamatha/ToDO-List",
     webapp: "https://github.com/klmamatha/E-Mart",
+    member: [
+      {
+        name: "Kranthi kumar",
+        img: Hero,
+        linkedin: "https://www.linkedin.com/in/kranthi-kadinti-b7939624b",
+        github: "https://github.com/klmamatha",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "netflix-clone-Website",
+    date: "Mach 2024",
+    description:
+      "Developed a front-end netflix-clone website using React.js that allows users to browse, search for, and purchase products. Designed a responsive user interface ensuring a seamless experience across all devices. Implemented features such as dynamic product filtering, user authentication, and a shopping cart system. Followed agile methodologies to enhance project collaboration and delivery efficiency.",
+    image: Todo,
+    tags: ["React Js", "Redux"],
+    category: "web app",
+    github: "https://github.com/klmamatha/ToDO-List",
+    webapp: "https://github.com/klmamatha/netflix-main-bulild",
     member: [
       {
         name: "Kranthi kumar",
