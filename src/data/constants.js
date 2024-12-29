@@ -216,6 +216,27 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 3,
+    title: "Glassmorphism-login",
+    date: "Mach 2023",
+    description:
+      "Developed a Glassmorphism-style login website using HTML, CSS, and Bootstrap. Designed a visually appealing and responsive user interface with a sleek glass-like effect, ensuring a seamless experience across all devices. Incorporated modern design principles to enhance user engagement and accessibility. Followed agile methodologies to improve project collaboration and ensure timely delivery..",
+    image: Netflix,
+    tags: ["React Js", "Redux"],
+    category: "web app",
+    github: "https://github.com/klmamatha/",
+    webapp: "https://glassmorphism-login-kranthi.netlify.app/",
+    member: [
+      {
+        name: "Kranthi kumar",
+        img: Hero,
+        linkedin: "https://www.linkedin.com/in/kranthi-kadinti-b7939624b",
+        github: "https://github.com/klmamatha",
+      },
+    ],
+  },
+
 ];
 
 export const TimeLineData = [
