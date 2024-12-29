@@ -7,6 +7,7 @@ import Emart from "../images/emart.png"
 import Hero from "../images/HeroImage.jpg"
 import Glassp from "../images/login-page.PNG"
 import Netflix from "../images/netflix.PNG"
+import Portfolio1 from "../images/portfolio2.PNG"
 import padhamavanihightschool from "../images/padhamavanihightschool.jpeg"
 
 export const Bio = {
@@ -237,7 +238,26 @@ export const projects = [
       },
     ],
   },
-
+  {
+    id: 4,
+    title: "Potfolio",
+    date: "Mach 2023",
+    description:
+      "Thrilled to Announce My New Portfolio!After dedicating significant time and effort, I’m excited to share my newly launched personal portfolio website, designed to showcase my journey, skills, and expertise as a Front-End Developer specializing in React.js.This project reflects my passion for crafting responsive and user-friendly interfaces and demonstrates my commitment to continuous learning in the field of web development.",
+    image: Portfolio1,
+    tags: ["HTML5", "CSS3", "Bootstrap"],
+    category: "web app",
+    github: "https://github.com/klmamatha/",
+    webapp: "https://kadinti-kranthi-portfolio.netlify.app/",
+    member: [
+      {
+        name: "Kranthi kumar",
+        img: Hero,
+        linkedin: "https://www.linkedin.com/in/kranthi-kadinti-b7939624b",
+        github: "https://github.com/klmamatha",
+      },
+    ],
+  },
 ];
 
 export const TimeLineData = [
