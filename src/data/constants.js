@@ -184,7 +184,7 @@ export const projects = [
       "Developed a front-end e-commerce website using React.js that allows users to browse, search for, and purchase products. Designed a responsive user interface ensuring a seamless experience across all devices. Implemented features such as dynamic product filtering, user authentication, and a shopping cart system. Followed agile methodologies to enhance project collaboration and delivery efficiency.",
     image: Emart,
     tags: ["React Js", "Redux"],
-    category: "web app",
+    category: "React app",
     github: "https://github.com/klmamatha/ToDO-List",
     webapp: "https://github.com/klmamatha/E-Mart",
     member: [
@@ -204,7 +204,7 @@ export const projects = [
       "Developed a front-end netflix-clone website using React.js that allows users to browse, search for, and purchase products. Designed a responsive user interface ensuring a seamless experience across all devices. Implemented features such as dynamic product filtering, user authentication, and a shopping cart system. Followed agile methodologies to enhance project collaboration and delivery efficiency.",
     image: Netflix,
     tags: ["React Js", "Redux"],
-    category: "web app",
+    category: "React app",
     github: "https://github.com/klmamatha/netflix-main-bulild",
     webapp: "https://netflix-main-bulild.vercel.app/",
     member: [ 
