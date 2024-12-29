@@ -5,6 +5,7 @@ import tcs from "../images/tcs.png"
 import Todo from "../images/Todolest.jpg"
 import Emart from "../images/emart.png"
 import Hero from "../images/HeroImage.jpg"
+import Glassp from "../images/login-page.PNG"
 import Netflix from "../images/netflix.PNG"
 import padhamavanihightschool from "../images/padhamavanihightschool.jpeg"
 
@@ -222,8 +223,8 @@ export const projects = [
     date: "Mach 2023",
     description:
       "Developed a Glassmorphism-style login website using HTML, CSS, and Bootstrap. Designed a visually appealing and responsive user interface with a sleek glass-like effect, ensuring a seamless experience across all devices. Incorporated modern design principles to enhance user engagement and accessibility. Followed agile methodologies to improve project collaboration and ensure timely delivery..",
-    image: Netflix,
-    tags: ["React Js", "Redux"],
+    image: Glassp,
+    tags: ["HTML5", "CSS3", "Bootstrap"],
     category: "web app",
     github: "https://github.com/klmamatha/",
     webapp: "https://glassmorphism-login-kranthi.netlify.app/",
