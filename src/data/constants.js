@@ -185,8 +185,8 @@ export const projects = [
     image: Emart,
     tags: ["React Js", "Redux"],
     category: "React app",
-    github: "https://github.com/klmamatha/ToDO-List",
-    webapp: "https://github.com/klmamatha/E-Mart",
+    github: "https://github.com/klmamatha/emart",
+    webapp: "https://emart-one-delta.vercel.app/mobiles",
     member: [
       {
         name: "Kranthi kumar",
